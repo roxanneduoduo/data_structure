@@ -54,7 +54,7 @@ int main(int argc, char* argv[])
 		printf("%d is in\n", i);
 	}
 	
-	for (i=9; i < 0; i--) {
+	for (i=0; i < 10; i++) {
 		DeQueue(myQueue, e);
 		printf("%d is out\n", *e);
 	}
